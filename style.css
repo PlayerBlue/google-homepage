@@ -17,7 +17,7 @@ li {
 }
 
 li a {
-	opacity: 0.85;
+	opacity: 0.75;
 	height: 20px;
 	display: block;
 	text-align: center;
@@ -47,9 +47,14 @@ ul {
 }
 
 #apps a {
+	opacity: 0.60;
 	height: 30px;
 	width: 30px;
 	background: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png') -132px -38px;
+}
+
+#apps a:hover {
+	opacity: 1;
 }
 
 #login {
