@@ -115,8 +115,8 @@ p {
 	font-weight: bold;
 	font-size: 0.85em;
 	padding: 8px 20px;
-	background-color: #DDD;
-	opacity: 0.5;
+	background-color: #E8E8E8;
+	opacity: 0.6;
 }
 
 #gp:hover, #ipr:hover {
