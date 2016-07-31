@@ -1,0 +1,175 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+li {
+	padding: 5px 2px;
+	list-style: none;
+	width: 50px;
+	float: left;
+	font-size: 13px;
+}
+
+li a {
+	opacity: 0.85;
+	height: 20px;
+	display: block;
+	text-align: center;
+}
+
+li a:hover {
+	opacity: 1;
+}
+
+.x:hover {
+	text-decoration: underline;
+}
+
+ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin-right: 25px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#apps {
+	width: 30px;
+	padding: 0;
+}
+
+#apps a {
+	height: 30px;
+	width: 30px;
+	background: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png') -132px -38px;
+}
+
+#login {
+	width: auto;
+	padding: 0;
+	margin-left: 15px;
+}
+
+#login a {
+	font-weight: bold;
+	border-radius: 3px;
+	color: white;
+	background-color: rgb(66, 133, 244);
+	padding: 5px;
+	height: 20px;
+	width: 80px;
+}
+
+#gl {
+
+}
+
+div#logo {
+	padding: 0 350px;
+	position: relative;	
+	margin: auto;
+	height: 92 px;
+	width: 272px;	
+}
+
+div#search {
+	position: relative;
+	margin: auto;
+	width: 972px;
+	top: 200px;
+}
+
+input {
+	font-size: 1em;
+	width: 560px;
+	margin-left: 200px;
+	margin-top: 20px;
+	padding: 9px;
+	border: 1px solid #ccc;
+}
+
+input:focus {
+	border-color: rgb(66, 133, 244);
+}
+
+p {
+	font-size: 16px;
+	position: absolute;
+	top: 55px;
+	left: 565px;
+	color: rgb(66, 133, 244);
+}
+
+#gp, #ipr {
+	display: block;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 0.85em;
+	padding: 8px 20px;
+	background-color: #DDD;
+	opacity: 0.5;
+}
+
+#gp:hover, #ipr:hover {
+	border: 1px solid #999;
+}
+
+#gp {
+	float: left;
+}
+
+#ipr {
+	float: right;
+}
+
+#buttons {
+	overflow: hidden;
+	width: 272px;
+	margin: auto;
+	margin-top: 35px;
+}
+
+#bottom {
+	overflow: hidden;
+	border-top: 1px solid #DDD;
+	margin-top: 700px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #EEE;
+}
+
+.left, .right {
+	padding: 12px;
+	font-size: 0.8em;
+	opacity: 0.6;
+}
+
+.left:hover, .right:hover {
+	text-decoration: underline;
+}
+
+.left:first-child {
+	margin-left: 20px;
+}
+
+#p {
+	margin-right: 20px;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float: right;
+}
